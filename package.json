@@ -1,0 +1,16 @@
+{
+  "name": "discord-role-tranfer",
+  "version": "1.0.0",
+  "description": "Discord bot to assign a role in a target guild based on missing role membership in a source guild.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.6.1"
+  }
+}
